@@ -30,7 +30,7 @@ do_install() {
     done
 
     # Remove unused icons
-    rm ${DESTDIR}/opt/brave.com/brave/*.xpm
+    rm -f ${DESTDIR}/opt/brave.com/brave/*.xpm
 
     # Remove the Debian/Ubuntu crontab
     rm -rf ${DESTDIR}/etc
